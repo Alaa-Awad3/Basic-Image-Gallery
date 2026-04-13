@@ -1,1 +1,44 @@
-
+.box{
+    position: relative;
+  
+  } 
+  
+  .boxText{
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    /*padding: 10px;*/
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+  
+  }
+  
+  #sliderBody{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #sliderImg{
+    background-image: url('../images/p-1.jpg');
+    background-position: center;
+    background-size: 100%;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  
+  }
+  #close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
